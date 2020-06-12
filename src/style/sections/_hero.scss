@@ -1,14 +1,18 @@
 #hero {
+    background-image: url("/src/assets/mo.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#hero {
     min-height: 100vh;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     border-bottom: 0px;
-    background: $white-color;
     font-weight: 400;
-    color: /* $dark-blue-text*/
-    white;
+    color: white;
     padding: 0rem 5.6rem;
     margin-bottom: 0;
     top: 0;
@@ -17,8 +21,8 @@
     right: 0;
     z-index: -1;
     /* background-image: linear-gradient( 135deg, $dark-blue-background 0%, $dark-blue-text 100%);*/
-    // If you want to set a background image on the hero section, uncomment these with yout custom image
-    background:url("/src/assets/mo.png");
+    // If you want to set a background image on the hero section, uncomment these with your custom image
+    background: $back-background;
     background-position: center;
     background-size: cover;
     @include respond(phone) {
