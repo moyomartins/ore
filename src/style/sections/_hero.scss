@@ -1,5 +1,4 @@
 #hero {
-    
     background-position: center;
     background-size: cover;
 }
@@ -19,10 +18,9 @@
     left: 0;
     bottom: 0;
     right: 0;
-    z-index: -1;      
-    background-image: $image-background;
+    z-index: -1;
     // If you want to set a background image on the hero section, uncomment these with your custom image
-    // background: $back-background;
+    background: url("/src/assets/moa.jpg");
     background-position: center;
     background-size: cover;
     @include respond(phone) {
